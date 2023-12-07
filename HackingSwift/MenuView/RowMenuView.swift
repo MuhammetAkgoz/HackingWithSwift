@@ -23,13 +23,14 @@ struct RowMenuView: View {
                 ForEach(menu) { section in
                     Section(section.name) {
                         ForEach(section.items) { item in
-                            ItemRow(item: item, colors: colors)
+                            NavigationLink(destination: ItemDetailView(item: item)) {
+                                ItemRow(item: item, colors: colors)
+                            }
                         }
                     }
                 }
 
-            }.navigationTitle("Menu")
-                .listStyle(.grouped)
+            }.listStyle(.grouped)
         }
     }
 }

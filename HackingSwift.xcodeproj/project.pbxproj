@@ -17,6 +17,7 @@
 		F56BD6132B20E5F600EBF131 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56BD60E2B20E5F600EBF131 /* Helper.swift */; };
 		F56BD6162B20E6E700EBF131 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56BD6152B20E6E700EBF131 /* MenuView.swift */; };
 		F56BD6182B20EF3800EBF131 /* RowMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F56BD6172B20EF3800EBF131 /* RowMenuView.swift */; };
+		F5BDCA1F2B224F8200B5BA59 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BDCA1E2B224F8200B5BA59 /* ItemDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		F56BD60E2B20E5F600EBF131 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = ../../../Downloads/idine/Helper.swift; sourceTree = "<group>"; };
 		F56BD6152B20E6E700EBF131 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		F56BD6172B20EF3800EBF131 /* RowMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowMenuView.swift; sourceTree = "<group>"; };
+		F5BDCA1E2B224F8200B5BA59 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 			children = (
 				F56BD6152B20E6E700EBF131 /* MenuView.swift */,
 				F56BD6172B20EF3800EBF131 /* RowMenuView.swift */,
+				F5BDCA1E2B224F8200B5BA59 /* ItemDetailView.swift */,
 			);
 			path = MenuView;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 				F56BD6162B20E6E700EBF131 /* MenuView.swift in Sources */,
 				F56BD6182B20EF3800EBF131 /* RowMenuView.swift in Sources */,
 				F56BD5FF2B20E44D00EBF131 /* ContentView.swift in Sources */,
+				F5BDCA1F2B224F8200B5BA59 /* ItemDetailView.swift in Sources */,
 				F56BD6132B20E5F600EBF131 /* Helper.swift in Sources */,
 				F56BD6122B20E5F600EBF131 /* Menu.swift in Sources */,
 				F56BD5FD2B20E44D00EBF131 /* HackingSwiftApp.swift in Sources */,
