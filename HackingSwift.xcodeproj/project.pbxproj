@@ -73,7 +73,8 @@
 		F56BD5FB2B20E44D00EBF131 /* HackingSwift */ = {
 			isa = PBXGroup;
 			children = (
-				F56BD6142B20E6DC00EBF131 /* MenuView */,
+				F5D6EB432B24990A007ADA9C /* WorkingStaticText */,
+				F56BD6142B20E6DC00EBF131 /* BuildingCompleteProject */,
 				F56BD60E2B20E5F600EBF131 /* Helper.swift */,
 				F56BD60C2B20E5F600EBF131 /* menu.json */,
 				F56BD60D2B20E5F600EBF131 /* Menu.swift */,
@@ -94,7 +95,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		F56BD6142B20E6DC00EBF131 /* MenuView */ = {
+		F56BD6142B20E6DC00EBF131 /* BuildingCompleteProject */ = {
 			isa = PBXGroup;
 			children = (
 				F56BD6152B20E6E700EBF131 /* MenuView.swift */,
@@ -105,7 +106,14 @@
 				F588B6362B23A75B00D5FCA1 /* CheckoutView.swift */,
 				F5D6EB412B2465D2007ADA9C /* FavoriteView.swift */,
 			);
-			path = MenuView;
+			path = BuildingCompleteProject;
+			sourceTree = "<group>";
+		};
+		F5D6EB432B24990A007ADA9C /* WorkingStaticText */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WorkingStaticText;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
