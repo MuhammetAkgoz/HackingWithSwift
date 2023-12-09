@@ -18,6 +18,9 @@ struct MainView: View {
             OrderView()
                 .tabItem { Label("Order", systemImage: "square.and.pencil") }
                 .environmentObject(order)
+            FavoriteView()
+                .tabItem { Label("Favorite", systemImage: "suit.heart") }
+            
         }
     }
 }

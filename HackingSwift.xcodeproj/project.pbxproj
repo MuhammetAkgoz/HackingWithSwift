@@ -21,6 +21,7 @@
 		F5BDCA1F2B224F8200B5BA59 /* ItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BDCA1E2B224F8200B5BA59 /* ItemDetailView.swift */; };
 		F5BDCA212B2257DA00B5BA59 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BDCA202B2257DA00B5BA59 /* OrderView.swift */; };
 		F5BDCA232B225F2200B5BA59 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5BDCA222B225F2200B5BA59 /* MainView.swift */; };
+		F5D6EB422B2465D2007ADA9C /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5D6EB412B2465D2007ADA9C /* FavoriteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		F5BDCA1E2B224F8200B5BA59 /* ItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetailView.swift; sourceTree = "<group>"; };
 		F5BDCA202B2257DA00B5BA59 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		F5BDCA222B225F2200B5BA59 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		F5D6EB412B2465D2007ADA9C /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				F5BDCA202B2257DA00B5BA59 /* OrderView.swift */,
 				F5BDCA222B225F2200B5BA59 /* MainView.swift */,
 				F588B6362B23A75B00D5FCA1 /* CheckoutView.swift */,
+				F5D6EB412B2465D2007ADA9C /* FavoriteView.swift */,
 			);
 			path = MenuView;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 				F588B6372B23A75B00D5FCA1 /* CheckoutView.swift in Sources */,
 				F56BD6162B20E6E700EBF131 /* MenuView.swift in Sources */,
 				F56BD6182B20EF3800EBF131 /* RowMenuView.swift in Sources */,
+				F5D6EB422B2465D2007ADA9C /* FavoriteView.swift in Sources */,
 				F5BDCA232B225F2200B5BA59 /* MainView.swift in Sources */,
 				F56BD5FF2B20E44D00EBF131 /* ContentView.swift in Sources */,
 				F5BDCA1F2B224F8200B5BA59 /* ItemDetailView.swift in Sources */,
