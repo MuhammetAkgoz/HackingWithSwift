@@ -8,17 +8,24 @@
 import SwiftUI
 
 struct EnteryView: View {
+    var message: AttributedString {
+        var result = AttributedString("Hello, world!")
+        result.font = .largeTitle
+        result.foregroundColor = .white
+        result.backgroundColor = .red
+        return result
+    }
+    
+    var message2: AttributedString {
+        var result = AttributedString("World!")
+        result.font = .largeTitle
+        result.foregroundColor = .white
+        result.backgroundColor = .blue
+        return result
+    }
+
     var body: some View {
-        Text("This is an extremely long text string that will never fit even the widest of phones without wrapping")
-            .padding()
-            .background(.red)
-            .foregroundStyle(.white)
-            .fontDesign(.serif)
-            .fontWidth(.expanded)
-            .lineSpacing(20)
-            .frame(width:200)
-        
-        
+        Text(message + message2)
     }
 }
 
